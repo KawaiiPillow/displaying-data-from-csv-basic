@@ -1,0 +1,10 @@
+<html>
+<head>
+  <h1> Bar Chart </h1>
+  </head>
+<body>
+  <p1> This is the graph of money spehnt by people for the first 4 enteries of
+    <a href = "https://raw.githubusercontent.com/JestonBlu/Statistics-Masters/master/STAT_604/Materials/SAS%201/PRG1_Data_and_Programs/sales.csv" target = blank> https://raw.githubusercontent.com/JestonBlu/Statistics-Masters/master/STAT_604/Materials/SAS%201/PRG1_Data_and_Programs/sales.csv </a>
+  <img src = "insert img path here">
+  </body>
+</html>
