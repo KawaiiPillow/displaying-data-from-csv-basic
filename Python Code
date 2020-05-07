@@ -1,0 +1,18 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+
+column_names = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
+
+test_df = pd.read_csv(r'https://raw.githubusercontent.com/JestonBlu/Statistics-Masters/master/STAT_604/Materials/SAS%201/PRG1_Data_and_Programs/sales.csv', names = column_names)
+
+print (test_df)
+
+#attempting to plot it
+new_df = test_df.head(4)
+
+print (new_df)
+
+plt.bar(new_df['2'], new_df['5'])
+plt.savefig('figgy.png')
